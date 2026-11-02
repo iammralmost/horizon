@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.client-log.txt
+.client-graph.txt
+.host-applied
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.idea/
+.vscode/

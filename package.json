@@ -1,0 +1,44 @@
+{
+  "name": "@local/usage-hud",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Always-visible token, cache-hit, context and balance readout in the composer dock.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammralmost/horizon.git"
+  },
+  "homepage": "https://github.com/iammralmost/horizon#readme",
+  "bugs": {
+    "url": "https://github.com/iammralmost/horizon/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "prices.json",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

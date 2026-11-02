@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Usage HUD",
+    "description": "Shows session tokens, cache-hit ratio, context occupancy and account balance on one line under the composer, without opening Settings."
+  }
+}

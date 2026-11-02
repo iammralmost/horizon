@@ -1,0 +1,17 @@
+{
+  "currency": "CNY",
+  "unit": "per-million-tokens",
+  "fallbackModel": "deepseek-flash",
+  "pricingBasis": "peak",
+  "offPeakDiscount": 0.5,
+  "peak": {
+    "weekdays": [1, 2, 3, 4, 5],
+    "intervals": [[540, 720], [840, 1080]],
+    "holidays": []
+  },
+  "models": {
+    "deepseek-flash": { "cacheHit": 0.04, "cacheMiss": 2, "output": 8 },
+    "deepseek-v4-pro": { "cacheHit": 0.3, "cacheMiss": 9, "output": 27 }
+  },
+  "note": "Prices are CNY per million tokens at the PEAK rate; off-peak multiplies by offPeakDiscount. Peak is Beijing time, Monday-Friday excluding Chinese statutory holidays, 09:00-12:00 and 14:00-18:00 (minutes of the local day). Add statutory holidays to peak.holidays as YYYY-MM-DD; while a holiday is missing, its weekday is priced as peak."
+}

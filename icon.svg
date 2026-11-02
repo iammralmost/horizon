@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Usage HUD">
+  <rect x="1" y="1" width="46" height="46" rx="12" fill="#0f1720"/>
+  <rect x="1" y="1" width="46" height="46" rx="12" fill="none" stroke="#2f3f4f" stroke-width="2"/>
+  <g fill="none" stroke="#6fb7ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="24" cy="15" rx="10" ry="4"/>
+    <path d="M14 15v8c0 2.2 4.5 4 10 4s10-1.8 10-4v-8"/>
+    <path d="M14 23v8c0 2.2 4.5 4 10 4s10-1.8 10-4v-8"/>
+  </g>
+  <circle cx="34" cy="34" r="5" fill="#ffc24d"/>
+  <path d="M34 31.5v5M31.5 34h5" stroke="#0f1720" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
