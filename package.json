@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Always-visible token, cache-hit, context and balance readout in the composer dock.",
   "license": "MIT",
+  "author": "iammralmost",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iammralmost/horizon.git"
